@@ -1,10 +1,8 @@
 #!/usr/bin/python3
+"""create class mylist"""
 
-"""Defines class MyList."""
 
 class MyList(list):
-    """Sorted printing for given built-in list class."""
-
+    """prints the sorted list of class"""
     def print_sorted(self):
-        """Print the given list in sorted ascending order."""
         print(sorted(self))
