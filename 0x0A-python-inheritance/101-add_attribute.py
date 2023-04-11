@@ -1,8 +1,10 @@
 #!/usr/bin/python3
+"""This adds the new attribute when possible"""
 
-"""Defines the function that adds attributes to objects."""
 
-def add_attribute(obj, att, value):
-    if not hasattr(obj, "__dict__"):
+def add_attribute(obj, attr, value):
+    """adds the new attribute"""
+    if('__slots__' in dir(obj) or '__dict__' not in dir(obj) or
+       hasattr(obj, attr)):
         raise TypeError("can't add new attribute")
-    setattr(obj, att, value)
+    setattr(obj, attr, value)
