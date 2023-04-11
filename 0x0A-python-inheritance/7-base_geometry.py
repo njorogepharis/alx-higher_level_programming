@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-"""basegeometry class"""
+"""basegeometryclass"""
 
 
 class BaseGeometry:
-    """instance of the given geometry class"""
+    """instance of geometry class"""
     def __init__(self):
-        """initialize the class"""
+        """initialize class"""
         pass
 
     def area(self):
