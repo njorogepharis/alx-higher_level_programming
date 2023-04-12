@@ -3,7 +3,7 @@
 
 
 def append_after(filename="", search_string="", new_string=""):
-    """appends after"""
+    """define appends after"""
     with open(filename, mode='r', encoding='utf-8') as f:
         lines = f.readlines()
 
