@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""pascal triangle"""
+"""the pascal triangle"""
 
 
 def pascal_triangle(n):
-    """does it"""
+    """make it"""
     Triangle = []
     prevN = []
     for i in range(n):
