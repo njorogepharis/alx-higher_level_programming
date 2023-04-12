@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""reads a file"""
+"""reads the file"""
 
 
 def read_file(filename=""):
-    """reads a file"""
+    """reads the file"""
     with open(filename, mode='r', encoding='utf-8') as f:
         for line in f:
             print(line, end="")
